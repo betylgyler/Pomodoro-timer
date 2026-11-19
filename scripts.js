@@ -7,7 +7,7 @@ const timerElement= document.getElementById("timer");
 let interval
 //12. to create an alarm sound we can add an mp4 audio, new Audio() creates an audio object. and hen we set it under clear inetrval in the if sats. by .play() method
 const alarmSound= new Audio("alarm.mp4")
-let timeLeft =10; // measn 25 mins this is sec we want to convert this to m inutes
+let timeLeft =1500; // measn 25 mins this is sec we want to convert this to m inutes
 //6. crate a function 
  function updateTimer(){
     //crwat the sec min
