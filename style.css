@@ -1,0 +1,69 @@
+/*to target div with class of conatiner .conatiner*/
+body{
+    background: #f5c7f7; 
+    margin: 0;/* creates space around element */
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.container{
+    width: 400px;
+    background: #a393eb; 
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 50px 20px;
+    border-radius: 15px;
+}
+
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*we can target all th ebutton tags with just button*/
+button{
+    font-size: 20px;
+    cursor: pointer; /*so that mouse pointing curser mouse change the pointer */
+    padding: 10px 20px ; /*make them fatter*/
+    margin: 10px /*make them have space*/
+}
+.timer{
+    font-size: 72px;
+}
+/*to target the start button we can use #start or whatver the id name iss*/
+#start{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    color: #ffffff;
+    font-weight: bold;
+    background: #66bfbf;
+    cursor: pointer;
+}
+#stop{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    color: #ffffff;
+    font-weight: bold;
+    background: #f76b8a;
+    cursor: pointer;
+}
+#reset{
+   padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    color: black;
+    font-weight: bold;
+    background: #eaf6f6;
+    cursor: pointer; 
+}
