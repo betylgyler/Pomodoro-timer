@@ -4,7 +4,7 @@ Focus for 25 minutes. Get an alarm. Repeat.
 
 I built this small timer to practice JavaScript, and because I actually needed one. As a student who also tutors and teaches, my attention gets pulled in a lot of directions, and the Pomodoro technique helps me stay on one thing at a time.
 
-**👉 [Try it live](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)** <!-- replace with your real link -->
+**👉 [Try it live](https://betylgyler.github.io/Pomodoro-timer/)** <!-- replace with your real link -->
 
 <!-- Add a screenshot: save it as screenshot.png in the repo, then uncomment the line below -->
 <!-- ![Pomodoro Timer screenshot](screenshot.png) -->
@@ -17,14 +17,6 @@ I built this small timer to practice JavaScript, and because I actually needed o
 - Resets itself to 25:00, ready for the next round
 
 It's deliberately simple: one page, no frameworks, no libraries.
-
-## Run it yourself
-
-```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-```
-
-Then open `index.html` in your browser. That's it, nothing to install.
 
 ## Built with
 
